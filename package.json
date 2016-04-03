@@ -1,0 +1,49 @@
+{
+  "name": "music-complier-magic",
+  "version": "1.0.0",
+  "description": " This is a custom compiler for music lyric files that generates music ",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dvhthegreat@bitbucket.org/scit_dpl/music_compiler_magic.git"
+  },
+  "keywords": [
+    "complier",
+    "music",
+    "apl"
+  ],
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "bytes": "2.3.0",
+    "colors": "1.1.2",
+    "cookie-parser": "~1.3.5",
+    "deasync": "0.1.4",
+    "debug": "~2.2.0",
+    "dotenv": "2.0.0",
+    "express": "~4.13.1",
+    "huffman": "0.1.0",
+    "ink-docstrap": "1.1.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "mstranslate-soap": "1.0.1",
+    "mstranslator": "2.0.6",
+    "multer": "1.1.0",
+    "nightwatch": "0.8.18",
+    "selenium-standalone": "5.1.0",
+    "selenium-webdriver": "2.53.1",
+    "serve-favicon": "~2.3.0",
+    "socket.io": "1.4.5",
+    "socket.io-stream": "0.9.0",
+    "spellchecker": "3.2.3",
+    "traverse": "0.6.6",
+    "underscore": "1.8.3",
+    "util": "0.10.3",
+    "wait": "0.1.0",
+    "webdriverio": "3.4.0"
+  },
+  "devDependencies": {}
+}

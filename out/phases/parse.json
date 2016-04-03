@@ -1,0 +1,1401 @@
+{
+	"type": "LyricsNode",
+	"children": [
+		{
+			"type": "TitleNode",
+			"children": [
+				{
+					"type": "TextNode",
+					"value": "\"BREAK EVERY CHAIN\"",
+					"pos": ""
+				},
+				{
+					"type": "WordNode",
+					"value": "\"BREAK",
+					"children": [],
+					"pos": ""
+				},
+				{
+					"type": "WordNode",
+					"value": "EVERY",
+					"children": [],
+					"pos": ""
+				},
+				{
+					"type": "WordNode",
+					"value": "CHAIN\"",
+					"children": [],
+					"pos": ""
+				}
+			]
+		},
+		{
+			"type": "CategoryNode",
+			"children": [
+				{
+					"type": "VerseNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "ChorusNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "VerseNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "ChorusNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There's",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": "'",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "an",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "army",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "rising",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "up.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "BridgeNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "I",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "hear",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chains",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "falling.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "ChorusNode",
+					"children": [
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "There",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "is",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "power",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "in",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "the",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "name",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "of",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "Jesus",
+									"children": [],
+									"pos": ""
+								}
+							]
+						},
+						{
+							"type": "SentenceNode",
+							"children": [
+								{
+									"type": "WordNode",
+									"value": "To",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain,",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "break",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "every",
+									"children": [],
+									"pos": ""
+								},
+								{
+									"type": "WordNode",
+									"value": "chain.",
+									"children": [
+										{
+											"type": "PuncNode",
+											"value": ".",
+											"pos": ""
+										}
+									],
+									"pos": ""
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

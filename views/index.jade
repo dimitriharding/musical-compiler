@@ -1,0 +1,246 @@
+extends layout
+
+block head
+  .navbar-fixed
+    nav.yellow
+      .nav-wrapper.label.orange
+        span#title.brand-logo.center #{title}
+        ul.right.hide-on-med-and-down
+block content
+  br
+  br
+  br
+  br
+  br
+  br
+  #waveform.container
+      #formDiv.row.z-depth-5
+        form#formLyrics(role='form', action='/', method="post", enctype="multipart/form-data")
+          .row
+            .col.s6
+                .file-field.input.file-field
+                  .btn
+                    span
+                      i.material-icons file_upload
+                      input#inputFile(type='file', name='file')
+                  .file-path-wrapper
+                    input.file-path#FileWrapper(type='text', placeholder='Upload File')
+                    label#lblFileWrapper(for='fileWrapper', data-error='wrong', data-success='File added... you can now compile -->')
+            .col.s6
+              .input-field.col.s12
+                textarea#txtLyrics.materialize-textarea(style='resize: none;', data-role='none', name='text')
+                label#lblTextLyrics(for='txtLyrics', data-error='wrong', data-success='<-- Lyrics pasted... you can now compile')
+                label(for='txtLyrics') Paste Lyrics
+          .row
+            .col.s12    
+              .switch
+                label
+                  | Translate to spanish
+                  input(type='checkbox', name='translate')
+                  span.lever
+          .row
+            .col.s12
+              input#opt1.filled-in(type='checkbox', name='opt1')
+              label(for='opt1') optimize L1
+              br
+              input#opt2.filled-in(type='checkbox', name='opt2')
+              label(for='opt2') optimize L2
+          .row
+            .col.s12
+              input#share(type='checkbox', name='share')
+              label(for='share') Share with other Clients
+          .row
+            .button_compile_div.center-align
+              button.waves-effect.waves-light.btn.pink.darken-4.hoverable(type='submit', name='action')
+                i.material-icons.left reorder
+                | compile
+                i.material-icons.right volume_down
+          br
+          br
+      br
+      br
+      a.waves-effect.waves-light.btn(onclick='expandAll();')
+        i.material-icons.left fullscreen
+        | Expand All
+      a.waves-effect.waves-light.btn(onclick='collapseAll();')
+        i.material-icons.left fullscreen_exit
+        | Collapse All
+      a#play.btn-floating.btn-large.waves-effect.waves-light.red.z-depth-3(onclick='pauseSong();', ondblclick='stopSong();')
+        i#play-icon.material-icons pause
+      br
+      br
+      ul.collapsible(data-collapsible='expandable')
+        li
+          #preprocessDiv.collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Preprocessor phase') Preprocess
+          .collapsible-body.center-align
+            if preprocessData
+              if preprocessData.err.errors.length > 0
+                p#preprocessErr!= preprocessData.err.errors
+                p#preprocessErrMsg!= preprocessData.err.message
+                script.
+                  preprocessError()
+              else
+                p#preprocess!= preprocessData.data
+            else
+              p#preprocess 
+
+        li
+          #lexDiv.collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Lexical Analysis phase') Lexical Analysis
+          .collapsible-body.center-align
+            pre
+              if lexData = lexData
+                if lexData.err.errors.length > 0
+                  p#lexErr!= lexData.err.string
+                  script.
+                    lexError()
+                else
+                  code#lexical!= lexData.data.getStream()
+              else
+                code#lexical
+        li
+          #parseDiv.collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Syntax Analysis phase') Syntax Analysis
+          .collapsible-body
+            pre
+              if parseData = parseData
+                if parseData.err.errors.length > 0
+                  p#parseErr!= parseData.err.string
+                  script.
+                    parseError()
+                else
+                  code#parser!= JSON.stringify(parseData.data,null,'\t')
+              else
+                code#parser
+        li
+          #semaDiv.collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Sematic Analysis phase') Sematic Analysis
+          .collapsible-body
+            if semaData
+              if semaData.err.errors.length > 0
+                p#semaErr!= semaData.err.string
+                script.
+                  semaError()
+              else
+                p#sema!= JSON.stringify(semaData.data,null,'\t')
+            else
+              p#sema
+        li
+          .collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Optimization phase') Optimization
+          .collapsible-body
+            if optiData
+              .input-field.col.s12
+                p#opti!= optiData.data.string
+            else
+              p#opti
+        li
+          .collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the IR phase') Intermediate Code Generate
+          .collapsible-body
+            if irData
+              .input-field.col.s12
+                textarea#ir.materialize-textarea!= irData.data.ir
+                p#ir_ascii.truncate!= irData.data.ir_ascii.data
+            else
+              p#ir
+        li
+          .collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see results from the Code Generation phase') Code Generation
+          .collapsible-body
+            if optiData
+              .input-field.col.s12
+                textarea#codeGen!= optiData.data.binary
+            else
+                p#codeGen
+
+        li
+          .collapsible-header
+            i.mdi-navigation-chevron-right
+            a.tooltipped(data-position='top', data-delay='50', data-tooltip='Press to see Symbol Table') Symbol Table
+          .collapsible-body
+            if symbolTableData
+              .input-field.col.s12
+              table#Table.yellow(style='width:100%')
+                tr
+                  th(data-field="genre") Genre:
+                  td#genreData!= symbolTableData.Genre
+                tr
+                  th(data-field="title") Title:
+                  td#titleData!= symbolTableData.Title
+                tr
+                  th(data-field="song_struc")  Song Structure
+                  td#songData!= symbolTableData.Song_Struc
+                tr
+                  th(data-field="lines")  Lines
+                  td#linesData!= symbolTableData.Lines
+                tr
+                  th(data-field="word_count")  Word Count
+                  td#wordcountData!= symbolTableData.WordCount
+              script.
+                songSynthesis()
+              textarea#try.materialize-textarea
+            else
+              p#symTable      
+
+      br
+      .container
+        form.col.s8.offset-s2
+          .row
+            label Choose voice
+            select#voices
+            
+      #sharedFile.modal.card-panel.indigo
+        .modal-content
+          h4 Incoming File from another Client
+          p Would you like to enjoy a song that was shared by another client?
+          p#songTile 
+        .modal-footer
+          a.waves-effect.waves-green.z-depth-3.btn-flat.modal-action.modal-close(href='#') Not Interested
+          a.waves-effect.waves-green.z-depth-3.btn-flat.modal-action.modal-close(href='#',onclick="requestFile()") Let Me Hear
+
+        // Modal Trigger
+      a.waves-effect.waves-light.modal-trigger(href='#about', titl='about project')
+        i.material-icons assignment_ind
+      // Modal Structure
+      #about.modal.card-panel.indigo
+        .modal-content
+          h4 About
+          p 
+            | Music Compiler Magic is a project that process song lyrics through
+            br
+            | the different compiler phases and then uses the speechSynthesis in the broswer
+            br
+            | and plays it back along with music to go with the tts.
+            br
+            | The entire project was written in javascript and it is a 
+            a(target='_blank', href='https://nodejs.org/en/') nodejs
+            |  express client-server application hosted on 
+            a(target='_blank', href='https://www.heroku.com/') heroku
+            | .
+            br
+          p
+            | Try pasting or uploading a .txt lyrics file and see what happens 😉
+            br
+          p
+            | - Dimitri Harding, Megan Hutchinson, Sheyinka Harry & Andre Hutchinson
+          p
+            | - P.S. Only tested in Chrome you might want to just use that 👌
+        .modal-footer
+          a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='/#') Agree
+      #support.modal
+        h4 Speech Synthesis not supported
+        p Your browser does not support speech synthesis.
+        p We recommend you use Google Chrome.
+        .action-bar
+          a.waves-effect.waves-green.btn-flat.modal-action.modal-close(href='/#') Close
+    block scripts
+          

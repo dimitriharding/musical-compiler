@@ -1,0 +1,68 @@
+body {
+  background-image: url('/images/love_music.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#play {
+    float: right;
+}
+
+#formDiv{
+  padding: 50px 30px 50px 80px;
+}
+
+input, select, textarea, p {
+  color: white;
+  white-space: pre;
+}
+textarea:focus, input:focus, {
+  color: white;
+}
+
+.collapsible-body:hover {
+  background-color: rgba(38, 50, 56, 0.7);
+}
+
+textarea#ir, textarea#symTable ,textarea#codeGen{
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+}
+code#parser, code#lexical {
+  color: yellow;
+}
+.file_input_div {
+  margin: auto;
+  width: 250px;
+  height: 40px;
+}
+.file_input {
+  float: left;
+}
+.file-field {
+  margin-top: 12.9%;
+  margin-left: 5px;
+}
+#file_input_text_div {
+  width: 80%;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.none {
+  display: none;
+}
+a {
+  color: #00B7FF;
+}
+@media (min-width:992px) {
+  #aside {
+    width: 250px;
+  }
+}
+@media (max-width:992px) {
+  #aside.pinned, #aside.pin-bottom {
+    position: static !important;
+    top: auto !important;
+  }
+}
