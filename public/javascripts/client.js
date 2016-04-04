@@ -12,8 +12,8 @@ var wavesurfer;
 
 /**********************************************************************/
 // connect client based on url
-client = url.includes( 'localhost' ) ? localhost : heruko;
-socket = io.connect( client );
+//client = url.includes( 'localhost' ) ? localhost : heruko;
+socket = io.connect( heruko );
 
 
 /* call will have object sent from client
